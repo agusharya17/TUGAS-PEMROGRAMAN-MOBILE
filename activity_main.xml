@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:paddingBottom:"@dimen/activity_horizontal_
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:text="@string/scan_qr_code" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama" />
+
+        <TextView
+            android:id="@+id/textViewNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agus"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kelas"/>
+
+        <TextView
+            android:id="@+id/textViewKelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ti_21_c2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:id="@+id/textViewNIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nim"/>
+
+        <TextView
+            android:id="@+id/textViewNIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_312110033"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp"
+        android:clipToOutline="true"
+        android:text="@string/aplikasi_qr_code_scanner"
+        android:textColorHint="@color/design_default_color_on_primary"
+        android:textStyle="bold"
+        tools:targetApi="s" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="231dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="51dp"
+        app:srcCompat="@drawable/screenshot2015_10_26_16_05_05"
+        android:contentDescription="@string/todo" />
+</LinearLayout>
+</RelativeLayout

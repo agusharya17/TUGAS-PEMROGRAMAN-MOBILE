@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QRCodeScanner21C2</string>
+    <string name="nama">Nama</string>
+    <string name="agus">Agus</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="kelas">Kelas</string>
+    <string name="nim">NIM</string>
+    <string name="ti_21_c2">TI.21.C2</string>
+    <string name="aplikasi_qr_code_scanner">Aplikasi QR Code Scanner</string>
+    <string name="todo">TODO</string>
+    <string name="_312110033">312110033</string>
+</resources>
